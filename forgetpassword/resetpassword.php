@@ -7,4 +7,3 @@ $data=array("users_password"=>$password);
 
 updateData("users",$data,"users_email = '$email'");
 
-?>

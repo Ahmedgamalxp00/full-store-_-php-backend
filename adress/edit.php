@@ -7,6 +7,7 @@ $city     = filterRequest("city");
 $street   = filterRequest("street");
 $lat      = filterRequest("lat");
 $long     = filterRequest("long");
+$desc = filterRequest("desc");
 
 $data = array(
     "adress_name" => $name,
@@ -14,6 +15,7 @@ $data = array(
     "adress_street" => $street,
     "adress_lat"    => $lat,
     "adress_long"   => $long,
+    "adress_desc" => $desc,
 
 );
 
